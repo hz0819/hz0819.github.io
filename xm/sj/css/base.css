@@ -1,0 +1,31 @@
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content: "";clear: both;display: block;}
+.header{width: 100%;}
+.logo{height: 99px;width: 1214px;margin: auto;/*padding-left: 
+65px;*/}
+.logo .img_logo{padding:7px}
+.logo .left1 .xian{padding-top: 12.5px;}
+.logo .left1 .bz{width: 114px;display: inline-block;padding-top: 8px;}
+.logo .left1 .bz img{width: 100%;}
+
+.logo .right1 ul li {height: 99px;width: 122px;border: 1px solid #ccc;list-style: none;line-height: 99px;text-align: center;
+border-top: 0;border-bottom: 0;}
+.logo .right1 ul li img{width: 17px;height: 17px;padding-top: 41px;	}
+.nav-wrap{background: red;height: 60px;width: 100%;}
+.nav{width: 1214px;margin: auto}
+.nav .ul1{width:520px;}
+.nav .ul1 li{list-style: none;color: white;font-size: 16px;line-height: 60px;width: 130px;/*text-align: center;*/}
+.contact{width: 1214px;margin: auto}
+.u_left{padding-top: 50px;}
+.u_left .lb li{margin-bottom: 30px;}
+.u_left ul li p{padding-left: 34px;line-height: 27px}
+.u_left ul li img{margin-right: 6px;}
+.u_left ul li .adress{margin-right: 15px;margin-left: 4px;}
+.friendly li{float: left;}
+.friendly li:nth-child(1) img{margin-right: 14px;}
+.u_right{padding:53px 100px 0 0 ;}
+.u_right div:first-child{margin-right: 40px;}
+.footer{min-width: 1214px}
+.ownership{background: url(../img/wei.jpg) center top no-repeat;height: 122px;text-align: center;color:white;background-size: 100% auto;}
+.ownership p:nth-child(1){padding-top: 57px;}
