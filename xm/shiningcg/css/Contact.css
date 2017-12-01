@@ -1,0 +1,93 @@
+body{
+	background-color: #f5f5f5;
+}
+.con{
+	width: 100%;
+	background-image: url(../img/map1.png);
+	background-repeat: no-repeat;
+	background-position:top center;
+}
+.con strong{
+	color: black;
+	font-size: 20px;
+}
+.con p{
+	width:238px;
+	color: #747474;
+	font-size: 16px;
+	margin: auto;
+	padding-left: 46px;
+	margin-top: 28px;
+	height: 38px;
+}
+.con .wang{
+	padding-top: 100px;
+}
+.con .mail{
+	line-height: 23px;
+	background-image: url(../img/mail.png);
+	background-position:left center;
+	background-repeat: no-repeat;
+	line-height: 38px;
+}
+.con span{
+	width: 200px;
+	vertical-align: middle;
+}
+.con .war{
+	width: 714px;
+	margin: auto;
+}
+.con .tele{
+	background-image: url(../img/telephone.png);
+	background-position:left center;
+	background-repeat: no-repeat;
+	position: relative;
+	left: -240px;
+	line-height: 19px;
+}
+.con .moble{
+	background-image: url(../img/moble.png);
+	background-position:left center;
+	background-repeat: no-repeat;
+	line-height: 38px;
+	position: relative;
+	top: -66px;
+}
+.con .add{
+	background-image: url(../img/add.png);
+	background-position:left center;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	position: relative;
+	right: -217px;
+	top: -132px;
+}
+.img{
+	width: 100%;
+}
+.img img{
+	width: 100%;
+}
+@media only screen and (max-width: 793px) {
+	.con .tele{
+		left: 0px;
+	}
+	.con .moble{
+		top: 0px;
+	}
+	.con .add{
+		right:0px;
+		top: 0px;
+	}
+	.con .war{
+		width: 217px;
+		margin: auto;
+	}
+}
+.foot p{
+	margin: 0;
+}
+.foot .clear{
+	height: 45px;
+}

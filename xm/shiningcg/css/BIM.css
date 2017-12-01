@@ -1,0 +1,279 @@
+
+.con .war {
+	width: 100%;
+	background-color: #f2f2f3;
+	position: relative;
+	/*transition:1s*/
+}
+.con .war div{
+	width: 100%;
+	height: 655px;
+	background-color: #f2f2f3;
+	overflow: hidden;
+}
+.con .war  div:nth-child(2n){
+	background-color: #ffffff;
+}
+.con .war .conn{
+	width: 100%;
+	height: 655px;
+	position: relative;
+	max-width: 1127px;
+	margin: auto;
+	background-color: transparent;
+	
+}
+.con .war div:nth-child(1) .conn .img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.con .war div:nth-child(2) .conn .img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.con .war div:nth-child(3) .conn .img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.con .war div:nth-child(4) .conn .img:nth-child(1){
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.con .war div:nth-child(4) .conn .img:nth-child(3){
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.con .war div:nth-child(5) .conn .img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.con .war div:nth-child(5) h2{
+		padding-top: 1.5rem;
+	}
+.con .war div:nth-child(1) .conn .div img{
+	position: relative;
+	width: 80%;
+}
+.con .war div:nth-child(2) .conn .div img{
+	position: relative;
+	width: 47.5%;
+	margin-right:2.5%;
+}
+.con .war div:nth-child(3) .conn .div img{
+	position: relative;
+	width: 47.5%;
+	margin-right:2.5%;
+}
+
+
+
+.con .war div:nth-child(4) .conn .div img{
+	position: relative;
+	width: 80%;
+	margin-right:2.5%;
+	margin-top:2.5% ;
+}
+
+.con .war .div{
+	background-color: transparent;
+	width: 500px;
+	color: #616161;
+}
+.con .war div:nth-child(4) .div{
+	background-color: transparent;
+	width: 345px;
+	color: #616161;
+	margin-left: 43%;
+}
+
+
+.con .war .div h2{
+	font-size:0.25rem ;
+	line-height: 0.5rem;
+	padding-top: 1rem;
+}
+.con .war .div h2 span{
+	border: 1px solid #616161;
+	border-radius: 0.05rem;
+	padding: 0.05rem;
+	width: 0.2rem;
+	height: 0.2rem;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	line-height:0.2rem;
+	text-align: center;
+	margin-right: 0.05rem;
+	margin-top: 0.04rem;
+}
+.con .war .div p{
+	font-size:0.2rem ;
+	line-height: 0.3rem;
+}
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+	.con .war .div{
+		background-color: transparent;
+		width: 50%;
+		color: #616161;
+		margin-right: 10%;
+	}
+	.con .conn{
+		width: 90%;
+		padding-left: 5%;
+	}
+	.con .war div .conn .img{
+		
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 1127px) {
+
+	.con .war div:nth-child(4) .div{
+		background-color: transparent;
+		width: 345px;
+		color: #616161;
+		margin-left: 40%;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 1028px) {
+	.con .war div:nth-child(4) .div{
+		background-color: transparent;
+		width: 40%;
+		color: #616161;
+		margin-left: 32%;
+	}
+	.con .war div:nth-child(3) .conn .img{
+		position: absolute;
+		left: -10%;
+		bottom: 0;
+	}
+	.con .war div:nth-child(4) .conn .img:nth-child(1){
+		position: absolute;
+		left:-10%;
+		top: 0;
+	}
+	.con .war div .conn .img{
+		width: 40%;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 946px) {
+	.con .war div:nth-child(4) .div{
+		background-color: transparent;
+		width: 35%;
+		color: #616161;
+		margin-left: 34%;
+	}
+	.con .war div:nth-child(3) .conn .img{
+		position: absolute;
+		left: -10%;
+		bottom: 0;
+	}
+	.con .war div:nth-child(4) .conn .img:nth-child(1){
+		position: absolute;
+		left:-10%;
+		top: 0;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 861px) {
+	.con .war .div{
+		background-color: transparent;
+		width: 60%;
+		color: #616161;
+		margin-right: 10%;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 1032px) {
+	.con .war div{
+		height: 600px;
+	}
+	.con .war .conn{
+		height: 600px;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width:902px) {
+	.con .war div{
+		height: 550px;
+	}
+	.con .war .conn{
+		height: 550px;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width:696px) {
+	.con .war div{
+		height: 500px;
+	}
+	.con .war .conn{
+		height: 500px;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width:565px) {
+	html{
+		font-size: 70px;
+	}
+	.con .war div{
+		height: 450px;
+	}
+	.con .war .conn{
+		height: 450px;
+		
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width:476px) {
+	html{
+		font-size: 60px;
+	}
+	.con .war div{
+		height: 400px;
+	}
+	.con .war .conn{
+		height: 400px;
+	}
+	
+}
+@media only screen and (min-width: 100px) and (max-width:405px) {
+	.con .war div{
+		height: 360px;
+	}
+	.con .war .conn{
+		height: 360px;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width:320px) {
+	html{
+		font-size: 60px;
+	}
+	.con .war div{
+		height: 320px;
+	}
+	.con .war .conn{
+		height: 320px;
+	}
+	.con .war div:nth-child(4) h2{
+		line-height: 0.4rem;
+		padding-top: 0.5rem;
+	}
+	.con .war div:nth-child(4) p{
+		line-height: 0.3rem;
+	}
+	
+}
+
+
+
+
+
+

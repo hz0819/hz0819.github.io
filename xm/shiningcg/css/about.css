@@ -1,0 +1,75 @@
+.con{
+	background-color: #e3e3e3;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+.con .war{
+	max-width: 1127px;
+	margin: 0 auto;
+	min-height: 600px;
+	position: relative;
+}
+.con .logo{
+	max-width: 1000px;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	left:63.5px ;
+}
+.con .logo div{
+	background: #f4f4f4;
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline;
+}
+.con .text{
+	width:564px;
+	margin-left: 10%;
+}
+.con .text h5{
+	font-size: 0.24rem;
+	padding-top: 1rem;
+}
+.con .text p{
+	font-size: 0.18rem;
+	color: #595757;
+	line-height: 0.28rem;
+}
+@media only screen and (max-width: 673px) {
+	.con .text{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.con .logo{
+		width: 90%;
+		margin-left: 5%;
+		left:0px ;
+	}
+	.con .logo div{
+		width: 9%;
+		margin-left: 1%;
+		max-width: 90px;
+	}
+	.con .logo img{
+		width: 100%;
+
+	}
+}
+@media only screen and (max-width: 673px) {
+	.con .logo{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.con .logo div{
+		width: 19%;
+		margin-left: 1%;
+		
+	}
+}
+

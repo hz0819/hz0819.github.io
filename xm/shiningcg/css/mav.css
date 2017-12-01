@@ -1,0 +1,174 @@
+html{
+	font-size:100px ;
+}
+.warp{
+	min-width: 320px;
+}
+.mav{
+	background: black;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 100;
+	min-width: 320px;
+}
+.mav .menu{
+	width: 700px;
+	text-align: right;
+	line-height:0.69rem;
+	position: relative;
+}
+.mav .menu a:nth-child(1){
+	margin-left: 0px;
+}
+.mav .menu a{
+	padding: 0.06rem 0.08rem;
+	border-radius: 8px;
+	color: #a1a1a1;
+	margin-left: 59px;
+	
+}
+
+.mav .clear{
+	max-width: 1127px;
+	height: 0.69rem;
+	margin: 0 auto;
+}
+.mav img{
+	margin:0.18rem 0;
+}
+.mav #btn{
+	margin:0.18rem 0.30rem 0.18rem 0;
+}
+
+.bor{
+	border:1px solid #7b7b7b;
+	color:white;
+}
+.foot{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	font-size:10px ;
+}
+.foot div {
+	height: 70px;
+}
+.foot div div:nth-child(1){
+	margin: 0.80rem  auto 0.20rem auto;
+	width: 35px;
+}
+.foot div div{
+	margin: 0px auto;
+	width: 25px;
+	height: 25px;
+	margin-left: 0.2rem;
+}
+.email1{
+	background: url(../img/email01.png);
+}
+.email{
+	background: url(../img/email.png);
+}
+.fb1{
+	background: url(../img/fb01.jpg);
+}
+.fb{
+	background: url(../img/fb.jpg);
+}
+.youtube1{
+	background: url(../img/youtube01.jpg);
+}
+.youtube{
+	background: url(../img/youtube.jpg);
+}
+.ins1{
+	background: url(../img/ins01.jpg);
+}
+.ins{
+	background: url(../img/ins.jpg);
+}
+.teitter1{
+	background: url(../img/teitter01.png);
+}
+.teitter{
+	background: url(../img/teitter.jpg);
+}
+.foot p{
+	width: 203px;
+	margin-top: 0.30rem;
+	margin-bottom: 0.25rem;
+	color: #7f7e7e;
+	position: relative;
+}
+@media screen and (max-width: 850px) and (min-width: 320px) {
+	.mav .menu{
+		width:100px;
+		background:rgba(0,0,0,0.5);
+		position: fixed;
+		right: 0;
+		top: 0.69rem;
+		line-height:30px;
+		color: white;
+	}
+	.mav .menu a{
+		display:block;
+		width:80px;
+		margin:0px;
+		border-radius: 0px;
+		margin: 0;
+		padding-right: 20px;
+		color: white;
+		
+	}
+	.a{
+		background: rgba(255,0,0,0.6);
+		
+	}
+}
+
+@media screen and (min-width: 849px) and (max-width: 1127px) {
+	.con{
+		
+	}
+}
+@media screen and (min-width: 849px) and (max-width: 1090px) {
+	html{
+		font-size: 90px;
+	}
+}
+@media screen and (min-width: 890px) and (max-width: 949px) {
+	html{
+		font-size: 80px;
+	}
+}
+@media screen and (min-width: 795px) and (max-width: 890px) {
+	html{
+		font-size: 75px;
+	}
+
+}
+@media screen and (min-width: 750px) and (max-width: 795px) {
+	html{
+		font-size: 70px;
+	}
+}
+@media screen and (max-width: 750px) {
+	html{
+		font-size: 80px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

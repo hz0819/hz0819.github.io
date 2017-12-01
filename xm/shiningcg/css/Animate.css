@@ -1,0 +1,104 @@
+.con .top{
+	width: 100%;
+	background: black;
+	border-top:1px solid #747474 ;
+}
+.con .top div,.con .botoom{
+	width: 84.580838%;
+	max-width:1130px;
+	margin: 0 auto;
+}
+.con .top div{
+	position: relative;
+}
+.con .top div div:nth-of-type(1){
+	background-image: url(../img/Dpaly.png);
+	background-size:100%;
+	width: 6.838383%;
+	height: 13.18%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.con .top div div:nth-of-type(2){
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #b4b4b4;
+	height: 17.77777%;
+	max-height: 50px;
+	min-height: 10px;
+	background-color:rgba(0,0,0,0.5);
+	padding-left: 10px;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+}
+.con img{
+	width: 100%;
+}
+.con .botoom div{
+	width: 31.8333333%;
+	margin-top: 1.5%;
+	text-align: center;
+	line-height: 0.43rem;
+	color: #8f8f8f;
+	font-size: 0.16rem;
+	position: relative;
+}
+.con .botoom div div{
+	width: 100%;
+	position: relative;
+}
+.con .botoom div div div{
+	width: 21px;
+	height: 25px;
+	background: url(../img/Dpaly1.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.con .botoom div div:hover div{
+	background: url(../img/Dplay.png);
+}
+@media only screen and (min-width: 673px) {
+	.con .top div,.con .botoom{
+		width: 95%;
+	}
+	.mar{
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+	}
+}
+@media only screen and (max-width: 673px){
+	.con .top div,.con .botoom{
+		width: 95%;
+	}
+	.con .botoom div{
+		width: 48.5%;
+		margin-top: 1.5%;
+	}
+	.con .botoom .n2{
+		margin-left: 1.5%;
+	}
+	/*.con .botoom{
+		font-size: 12px;
+		word-spacing: -1px;
+		letter-spacing:0px ;
+	}*/
+	
+
+}
+@media only screen and (max-width: 422px){
+	.con .botoom div{
+		line-height: 20px;
+		
+	}
+
+}
+
