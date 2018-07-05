@@ -1,0 +1,289 @@
+.wrap{
+	background: #fff;
+	font-size: 12px
+}
+/*内容*/
+.content{
+	max-width: 1320px;
+   margin: 0 auto ; padding: 0px 5%;
+    /*border: 1px solid blue;*/
+    background: #fff;
+}
+/*.main{ 
+   
+    border: 1px solid red
+}*/
+
+/*.home-row-1*/
+
+/*.main a {display: inline-block;}*/
+.home-row-1{
+position: relative;
+}	    
+.diamond-lefe,.diamond-right{
+	position: relative;
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.diamond-lefe{max-width: 724px}    
+.diamond-right{margin: 6% 0 0 -6%;}    
+.diamond-right img{width: 68%}
+.diamond-text{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 50%;
+    text-align: center
+}
+.diamond-text a{color: #000;}
+.diamond-text h5{
+	font-weight: normal;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+    font-size: 50px;
+    margin: 20px 0;
+    letter-spacing: 1px
+}
+.diamond-text p{
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+/*home-row-2*/
+
+.home-row-2{
+	margin: 150px auto
+}
+.home-row-2 div {
+	max-width: 768px;
+	margin: 0 auto
+}
+
+/*home-row-3*/
+
+.home-row-3{margin-top: 150px;
+}
+.bannertriple {
+    position: relative;
+    padding: 0 85px;
+
+}
+.bannertriple-left,.bannertriple-center,.bannertriple-right{
+    display: inline;
+    float: left;
+    width: 32%;
+    margin: 0 1%;
+}
+.bannertriple-left{margin-left: 0;}
+.bannertriple-text{
+	margin-top: 30px;
+    text-align: center;
+    padding: 0 5%;
+}
+.bannertriple-text h3{
+    font-weight: normal;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-indent: 0.2em
+}
+.bannertriple-text p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+.bannertriple-text p a {
+	 padding: 10px;
+    text-transform: uppercase;
+}
+.bannertriple-right{margin-right: 0}
+
+/*home-row-4*/
+.home-row-4{margin-top: 150px;}
+.shoes-contaner{
+	position: relative;
+    margin: 0px auto 150px auto;
+    max-width: 900px;
+} 
+.shoes-contaner h3 {
+    font-size: 50px;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-rendering: optimizeSpeed;
+    text-align: center;
+}
+.shoes-contaner li{
+	float: left;
+	position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0 0 0 3.5%;
+    vertical-align: top;
+  
+}
+
+.product-background{
+	-moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 5;
+}
+
+.shoes-contaner li:first-child{
+	margin: 0
+}
+.item-inner{position: relative;}
+.product-img{
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    display: block;
+    overflow: hidden;
+    z-index: 2;}
+.item-inner .product-img img{
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+ }
+ .product-img img:nth-child(2){
+ 	opacity: 0
+ }
+ .product-name {
+    font-weight: bold;
+    font-size: 12px;
+}
+.product-info-extr{
+	line-height: 1.5;
+	opacity: 0
+}
+
+.product-info-extr{
+	 padding: 0 0 5px;
+	 font-size: 12px;
+	text-transform: uppercase;
+}
+/*home-row-5*/
+.livestory-description{
+	 width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.livestory-description h3{
+	margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+}
+.livestory-description-text{
+	  font-size: 16px;
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+.livestory-description-discover{
+     margin-top: 15px;
+	padding: 10px;
+    margin-bottom: 10px;
+}
+.flps-container{
+	 max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+.livestory-box-video{position: relative;}
+.livestory-box-video span{
+	display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    top: 0;
+    margin:auto;
+    width: 100px;
+    height: 100px;
+    background: url(../img/play.svg) no-repeat 50% 50%;
+    opacity: .33;
+    transition: opacity .2s;
+    margin-left: -50px;
+}
+.livestory-box-life {
+	position: relative;
+	padding-top: 70%;
+}
+.lift-left,.lift-right{  
+    opacity: 1;
+    width: 321px;
+    height: 488px;
+    top: 10px;
+    margin: 0px;
+    left: 73px;
+    position: absolute;
+    z-index: 3;  
+} 
+.lift-right{
+	height: 588px;
+	left: 406px
+} 
+ .lift-right h2{
+    font-size: 50px;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+}  
+ .lift-right{
+ 	line-height: 1.5;
+ 	font-size: 16px;
+ }
+ .lift-right-link{
+ 	margin-top: 32px;
+ }
+ .fpls-credits {
+    text-align: right;
+    clear: both;
+    padding: 5px 15px;
+}
+.fpls-credits .fpls-credits-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55px;
+    height: 9px;
+    background: url(../img/credits-black.svg) no-repeat 50% 50%;
+    text-indent: -9999em;
+    text-align: left;
+    overflow: hidden;
+}

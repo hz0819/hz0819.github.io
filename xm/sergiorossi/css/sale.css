@@ -1,0 +1,173 @@
+.wrap{
+    background: #fff;
+    font-size: 12px
+}
+/*内容*/
+.content{
+      position: relative;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 15px 15px 40px;
+}
+
+/*home-row-4*/
+/*.home-row-4{margin-top: 150px;}*/
+.shoes-contaner{
+	position: relative;
+   margin: 0 85px;;
+} 
+.shoes-contaner h3 {
+    font-size: 50px;
+    font-family: "Freight Big Light",Times,serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-rendering: optimizeSpeed;
+    text-align: center;
+}
+.shoes-contaner li{
+	float: left;
+	position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0 0 0 3.5%;
+    vertical-align: top;
+  
+}
+
+.product-background{
+	-moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 5;
+}
+
+.shoes-contaner li:first-child{
+	margin: 0
+}
+.item-inner{position: relative;}
+.product-img{
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    display: block;
+    overflow: hidden;
+    z-index: 2;}
+.item-inner .product-img img{
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+ }
+ .product-img img:nth-child(2){
+ 	opacity: 0
+ }
+ .product-name {
+    font-weight: bold;
+    font-size: 12px;
+}
+.product-info-extr{
+	line-height: 1.5;
+	opacity: 1
+}
+
+.product-info-extr{
+	 padding: 0 0 5px;
+	 font-size: 12px;
+	text-transform: uppercase;
+}
+.product-price span:first-child{
+  text-decoration: line-through;
+  padding-right: 1em
+}
+.product-info h2{
+    margin-bottom: 0.5em;
+}
+.product-price{
+   -moz-transition-property: margin;
+    -o-transition-property: margin;
+    -webkit-transition-property: margin;
+    transition-property: margin;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    margin: -14px 0 30px;
+    box-sizing: border-box;
+
+}
+.product-short-description{
+    opacity: 0
+}
+.footer-container {
+    margin-bottom: 0px;
+}
+
+
+
+.item-inner:before {
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: #fff;
+    background-image: url(https://dtetv3m3szdvn.cloudfront.net/skin/frontend/diana/sro/images/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 55px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 7;
+    border: 1px solid #eee;
+    pointer-events: none;
+}
+.item-inner.change:before{
+    opacity: 0
+} 

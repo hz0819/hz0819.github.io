@@ -1,0 +1,105 @@
+.wrap{
+	min-height: 959px;
+	border: 7px solid black;
+	position: relative;
+}
+a {
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+h2 a {
+	text-decoration: none;
+}
+.header{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 17px;
+}
+.logo {
+    height: 196px;
+    margin: auto;
+    width: 716px;
+}
+.content-main{
+	width: 673px;
+    margin: 246px auto 0 auto;
+}
+.main-list li{
+   margin-bottom: 21px;
+    background: url(../img/sep.png) no-repeat scroll 0 bottom #FFF; 
+    padding-bottom: 37px;
+}
+.pagedate {
+    white-space: nowrap;
+    margin: 0 0 0 98px;
+    color: #000;
+    line-height: 2em;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.list-item div.image {
+    text-align: center;
+    margin: 3px 0 14px 0;
+}
+.list-item  h2 {
+    margin: 15px 98px;
+    width: 477px;
+    font-size: 22px;
+    line-height: 1.2em;
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+div.text {
+    width: 477px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #666;
+}
+div.text p {
+    line-height: 19px;
+    margin: 0 0 15px;
+}
+.open-gallery {
+    font-size: 10px;
+    margin: 2px 98px 18px 98px;
+    padding-right: 5px;
+    text-align: right;
+    text-transform: uppercase;
+}
+p.credit {
+    font-size: xx-small;
+    margin-left: 98px;
+}
+.image-span{
+	position: relative;
+}
+.image-span>span {
+    background: url(../img/play-new.png) no-repeat scroll center center / 92px auto;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+}
+.images-video{
+	height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+.images-video .video{
+	display: block;
+	width: 100%;
+	height: 100%;
+	height: 200px;
+}
